@@ -1,0 +1,24 @@
+{
+  "versaoCatalogo": 1,
+  "revitVersaoArquivo": "2024",
+  "disciplina": "eletrica",
+  "arquivo": "Sistemas/BIMFlow-Biblioteca-Sistemas-2024.rvt",
+  "unidadeDimensoes": "mm",
+  "itens": [
+    {
+      "id": "dispositivos-iluminacao_ece5f9f8fe616c100258db475bc626b641a971d19d608c6bf846063809f7b673",
+      "nome": "ELD-INT-PVC-2 INTERRUPTORES EM CAIXA 4X2 · 1 INTERMEDIARIO E 1 PARALELO",
+      "nomeTipoRevit": "1 INTERMEDIARIO E 1 PARALELO",
+      "familia": "ELD-INT-PVC-2 INTERRUPTORES EM CAIXA 4X2",
+      "tipoConteudo": "carregavel",
+      "categoria": "dispositivos-iluminacao",
+      "imagem": "Imagens/dispositivos-iluminacao_ece5f9f8fe616c100258db475bc626b641a971d19d608c6bf846063809f7b673.png",
+      "palavrasChave": [
+        "interruptor",
+        "iluminacao",
+        "eletrica",
+        "4x2"
+      ]
+    }
+  ]
+}
