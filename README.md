@@ -26,3 +26,6 @@ Publicar o acompanhamento não implementa a distribuição online de conteúdo p
 
 ## Revisão 08/10/2026 — plugin v1.0.25
 RFA sob demanda, preparação de sistemas, inserção individual, progresso de exportação, busca parcial/quantidade e ícones novos. Vídeo de 30/09 identificado como demonstração anterior. Homologação funcional e distribuição online do conteúdo permanecem pendentes.
+
+## v1.0.26
+Ribbon reorganizada: Biblioteca, Gestão da biblioteca e Padronização. Imagem SVG representa os comandos implementados; não é captura do Revit. Teste Plugin removido e Importar Sistemas retirado da ribbon.
