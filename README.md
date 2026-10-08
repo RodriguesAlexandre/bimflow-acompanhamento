@@ -23,3 +23,6 @@ O fluxograma permite destacar etapas por status e abrir detalhes; busca, miniatu
 
 O site e o repositório são públicos. A DLL e o RVT não fazem parte desta publicação.
 Publicar o acompanhamento não implementa a distribuição online de conteúdo pelo plugin.
+
+## Revisão 08/10/2026 — plugin v1.0.25
+RFA sob demanda, preparação de sistemas, inserção individual, progresso de exportação, busca parcial/quantidade e ícones novos. Vídeo de 30/09 identificado como demonstração anterior. Homologação funcional e distribuição online do conteúdo permanecem pendentes.
