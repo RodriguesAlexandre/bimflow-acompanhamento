@@ -2,7 +2,7 @@
   "versaoCatalogo": 1,
   "revitVersaoArquivo": "2024",
   "disciplina": "eletrica",
-  "arquivo": "Familias/BIMFlow-Biblioteca-Sistemas-2024.rvt",
+  "arquivo": "Famílias sistema/BIMFlow-Biblioteca-Sistemas-2024.rvt",
   "unidadeDimensoes": "mm",
   "itens": [
     {
@@ -19,7 +19,7 @@
         "eletrica",
         "4x2"
       ],
-      "arquivo": "Familias/Carregaveis/dispositivos-iluminacao/DBA5DD30493F/ELD-INT-PVC-2 INTERRUPTORES EM CAIXA 4X2.rfa"
+      "arquivo": "Famílias carregáveis/Dispositivos de iluminação/ELD-INT-PVC-2 INTERRUPTORES EM CAIXA 4X2.rfa"
     }
   ]
 }

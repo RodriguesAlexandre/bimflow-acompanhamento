@@ -29,3 +29,6 @@ RFA sob demanda, preparação de sistemas, inserção individual, progresso de e
 
 ## v1.0.26
 Ribbon reorganizada: Biblioteca, Gestão da biblioteca e Padronização. Imagem SVG representa os comandos implementados; não é captura do Revit. Teste Plugin removido e Importar Sistemas retirado da ribbon.
+
+## v1.0.29
+Catálogos separados por disciplina/versão, RFAs sem pastas de códigos, cópia automática do RVT salvo e busca com limpeza independente das categorias. Arquitetura ainda exige implementação própria.
