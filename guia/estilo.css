@@ -59,3 +59,8 @@ code.path{display:block;margin:8px 0 2px;padding:9px 12px;background:#12314f;col
 @media print{.live-card .button{display:none}}
 .build-detail>*,.install-grid>*{min-width:0}
 .folder-figure img{max-width:100%}
+
+/* Alinhamento das duas áreas de instalação e etapa em trabalho. */
+.install-grid{align-items:stretch}.install-grid>.card{margin:0;height:100%}.install-card{display:flex;flex-direction:column}.install-card>.muted{margin-top:auto;padding-top:14px}.live-card>.button{margin-top:auto}.flow-step.andamento{border-color:#e0b65c}.flow-step.andamento .step-number{background:#f5ce77}.flow-step.andamento .step-status{color:#f5ce77}
+
+.install-card>.pill{align-self:flex-start}.live-card{gap:0}

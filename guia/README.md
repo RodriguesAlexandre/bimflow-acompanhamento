@@ -22,9 +22,9 @@ Página pública de operação, resultados e continuidade da solução P. Avelar
 Não publicar tokens, arquivos RFA/RVT privados ou logs com credenciais neste repositório. Os links dos repositórios privados exigem acesso no GitHub.
 
 ## Pendências registradas
-- Homologação do fluxo online no Revit e distribuição da próxima DLL.
-- Transferência do plugin, biblioteca e site para o GitHub da P. Avelar, com ajuste de acessos e endereços.
+- Fluxo online homologado pela equipe; novas revisões continuam sujeitas a testes.
+- Em trabalho: transferência do plugin, biblioteca e site para o GitHub da P. Avelar, com ajuste de acessos e endereços.
 - Integração dos comandos úteis do plugin legado independente.
 - Exportadores e validações das outras disciplinas.
 
-Dados conferidos em 27/10/2026: elétrica 564 tipos + 2 pacotes; arquitetura 325 tipos + 3 pacotes. A arquitetura inclui 24 paredes básicas e 48 modelos de vista. As duas disciplinas foram migradas para a biblioteca privada.
+Dados conferidos em 27/10/2026: elétrica 564 tipos + 3 pacotes; arquitetura 325 tipos + 3 pacotes. A arquitetura inclui 24 paredes básicas e 48 modelos de vista. As duas disciplinas foram migradas para a biblioteca privada. Elétrica inclui 12 modelos de vista; arquitetura inclui 48. Manutenção do instalador: G:\Drives compartilhados\BIM\PLUG INS\BIMFlow\MANUTENÇÃO INSTALADOR. Versão de referência: 1.0.43.
