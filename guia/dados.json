@@ -1,0 +1,22 @@
+{
+  "atualizadoEm":"27/10/2026",
+  "versaoPreparada":"1.0.41",
+  "ultimaRelease":"1.0.39",
+  "migracaoArquitetura":"concluida",
+  "disciplinas":[
+    {"nome":"Elétrica","tipos":564,"carregaveis":553,"sistemas":11,"pacotes":2,"itensPainel":566,"tabelas":38,"legendas":10,"modelosVista":0,"descricao":"Eletrodutos, eletrocalhas, conexões, dispositivos, equipamentos e luminárias.","distribuicao":"Migrada para o GitHub privado"},
+    {"nome":"Arquitetura","tipos":325,"carregaveis":270,"sistemas":55,"pacotes":3,"itensPainel":328,"tabelas":139,"legendas":50,"modelosVista":48,"descricao":"Paredes básicas, pisos, coberturas, forros, portas, janelas, mobiliário e outras carregáveis.","distribuicao":"Migrada para o GitHub privado"}
+  ],
+  "etapas":[
+    {"id":"01","titulo":"Organizar o acervo","status":"concluido","texto":"Categorias por disciplina, famílias aprovadas e RVT salvo como origem.","evidencia":"Elétrica e arquitetura inventariadas"},
+    {"id":"02","titulo":"Exportar e validar","status":"concluido","texto":"RFAs, RVT, JSONs, miniaturas e relatório. IDs únicos e validação antes de publicar.","evidencia":"564 tipos de elétrica · 325 de arquitetura"},
+    {"id":"03","titulo":"Usar o painel","status":"concluido","texto":"Busca por palavras e quantidades, filtros múltiplos, seleção e importação.","evidencia":"Uma interface para as disciplinas"},
+    {"id":"04","titulo":"Incluir modelos de vista","status":"validacao","texto":"Pacotes de modelos integrados ao exportador e importador. Os existentes são preservados.","evidencia":"48 modelos exportados em arquitetura"},
+    {"id":"05","titulo":"Distribuir pelo GitHub","status":"validacao","texto":"Repositório privado, arquivos nas Releases, consulta online e cache local verificado.","evidencia":"Duas bibliotecas migradas · validação final no Revit"},
+    {"id":"06","titulo":"Homologar o fluxo","status":"validacao","texto":"Conferir inserção, modelos de vista, sistemas, permissões e publicação dentro do Revit.","evidencia":"Downloads reais e cache já verificados"},
+    {"id":"07","titulo":"Transferir para P. Avelar","status":"pendente","texto":"Levar plugin, biblioteca e site ao GitHub da empresa. Ajustar acessos e endereços.","evidencia":"Hoje: conta pessoal de Alexandre"},
+    {"id":"08","titulo":"Incorporar comandos antigos","status":"pendente","texto":"Inventariar o plugin legado independente e integrar os comandos úteis, com revisão e testes.","evidencia":"Elétrica e outras disciplinas"},
+    {"id":"09","titulo":"Ampliar disciplinas","status":"pendente","texto":"Definir escopo e adaptadores de hidrossanitário, incêndio, SPDA, climatização e estrutura.","evidencia":"Estrutura prevista; exportadores ainda pendentes"},
+    {"id":"10","titulo":"Consolidar a operação","status":"pendente","texto":"Definir responsáveis, rotina de revisão e validação antes de cada nova publicação.","evidencia":"Procedimento de continuidade abaixo"}
+  ]
+}
