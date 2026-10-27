@@ -1,14 +1,44 @@
 {
   "sheetId": "1gb3Jl9uYyyDxPHdMH2RKNmeEfmVFnX8IaP1Tsej-i8I",
   "sheetName": "Página1",
-  "referenceVersion": "1.0.39",
-  "referenceRelease": "https://github.com/RodriguesAlexandre/bimflow-revit-plugin/releases/tag/v1.0.39",
+  "referenceVersion": "1.0.41",
+  "referenceRelease": "https://github.com/RodriguesAlexandre/bimflow-revit-plugin/releases/tag/v1.0.41",
   "snapshotAt": "2026-10-27T10:01:15-03:00",
   "rows": [
-    ["27/10/2026 10:01:15", "Alexandre Rodrigues", "DELLG15", "2024", "1.0.40.0"],
-    ["26/10/2026 16:56:41", "Drielly Pricila", "ADMINISTRATOR", "2024", "1.0.25.0"],
-    ["27/08/2026 13:08:35", "Glauco", "DESKTOP-30HPIG7", "2024", "1.0.18.0"],
-    ["16/10/2026 11:01:07", "Glauco", "IDEAPAD-S145", "2024", "1.0.33.0"],
-    ["27/10/2026 09:14:19", "Pichau", "AMD-5500", "2024", "1.0.18.0"]
+    [
+      "27/10/2026 10:01:15",
+      "Alexandre Rodrigues",
+      "DELLG15",
+      "2024",
+      "1.0.40.0"
+    ],
+    [
+      "26/10/2026 16:56:41",
+      "Drielly Pricila",
+      "ADMINISTRATOR",
+      "2024",
+      "1.0.25.0"
+    ],
+    [
+      "27/08/2026 13:08:35",
+      "Glauco",
+      "DESKTOP-30HPIG7",
+      "2024",
+      "1.0.18.0"
+    ],
+    [
+      "16/10/2026 11:01:07",
+      "Glauco",
+      "IDEAPAD-S145",
+      "2024",
+      "1.0.33.0"
+    ],
+    [
+      "27/10/2026 09:14:19",
+      "Pichau",
+      "AMD-5500",
+      "2024",
+      "1.0.18.0"
+    ]
   ]
 }
