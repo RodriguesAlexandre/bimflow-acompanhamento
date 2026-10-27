@@ -27,4 +27,6 @@ Não publicar tokens, arquivos RFA/RVT privados ou logs com credenciais neste re
 - Integração dos comandos úteis do plugin legado independente.
 - Exportadores e validações das outras disciplinas.
 
-Dados conferidos em 27/10/2026: elétrica 564 tipos + 3 pacotes; arquitetura 325 tipos + 3 pacotes. A arquitetura inclui 24 paredes básicas e 48 modelos de vista. As duas disciplinas foram migradas para a biblioteca privada. Elétrica inclui 12 modelos de vista; arquitetura inclui 48. Manutenção do instalador: G:\Drives compartilhados\BIM\PLUG INS\BIMFlow\MANUTENÇÃO INSTALADOR. Versão de referência: 1.0.43.
+Dados conferidos em 27/10/2026: elétrica 564 tipos + 3 pacotes; arquitetura 325 tipos + 3 pacotes. A arquitetura inclui 24 paredes básicas e 48 modelos de vista. As duas disciplinas foram migradas para a biblioteca privada. Elétrica inclui 12 modelos de vista; arquitetura inclui 48. Manutenção do instalador: G:\Drives compartilhados\BIM\PLUG INS\BIMFlow\MANUTENÇÃO INSTALADOR. Versão de referência: 1.0.44.
+
+A versão 1.0.44 permite testar a exportação pelo botão Prévia local antes de Publicar Biblioteca. Atualizar relê a origem ativa; Voltar ao GitHub consulta a revisão distribuída.
