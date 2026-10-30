@@ -1,7 +1,7 @@
 {
   "atualizadoEm": "30/10/2026",
-  "versaoPreparada": "1.0.48",
-  "ultimaRelease": "1.0.48",
+  "versaoPreparada": "1.0.49",
+  "ultimaRelease": "1.0.49",
   "migracaoArquitetura": "concluida",
   "disciplinas": [
     {
@@ -100,7 +100,7 @@
       "titulo": "Automatizar releases corporativas",
       "status": "concluido",
       "texto": "Workflow da empresa testa, compila os dois frameworks e publica o pacote a partir da tag de versão.",
-      "evidencia": "Release corporativa 1.0.48 · pacote limpo e dois instaladores"
+      "evidencia": "Release corporativa 1.0.49 · pacote limpo e dois instaladores"
     },
     {
       "id": "11",
