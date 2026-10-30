@@ -32,3 +32,7 @@ Ribbon reorganizada: Biblioteca, Gestão da biblioteca e Padronização. Imagem 
 
 ## v1.0.29
 Catálogos separados por disciplina/versão, RFAs sem pastas de códigos, cópia automática do RVT salvo e busca com limpeza independente das categorias. Arquitetura ainda exige implementação própria.
+
+## Dashboards complementares
+- `telemetria/`: instalações e versões, preservando a fonte anterior e sua atualização de cinco minutos.
+- `telemetria/uso/`: comandos, pessoas ativas, conteúdo e resultados; leitura pública sanitizada da planilha privada, consolidada a cada seis horas. Não inclui IP ou credenciais. Veja o README dessa pasta para contagem, limites e manutenção.

@@ -12,7 +12,7 @@ Dashboard estático no GitHub Pages, com leitura pública do Google Sheets. Publ
 - Cada instalação é uma combinação de máquina e versão do Revit. Havendo mais de uma linha para a combinação, utiliza a data mais recente.
 - Usuários são contados separadamente, sem confundir um usuário em duas máquinas com duas pessoas.
 - Situação compara versões numéricas de até quatro componentes com referenceVersion, definida em config.json.
-- A referência inicial é a release publicada 1.0.39. A compilação local 1.0.40 é identificada como acima da referência, e não como release pública.
+- A referência atual é a release publicada 1.0.45. Compilações de desenvolvimento não são tratadas como releases aprovadas.
 - Para mudar a referência após publicar outra release, atualize referenceVersion e referenceRelease em config.json e envie ao GitHub. A planilha não define automaticamente qual versão é oficialmente aprovada.
 - DataHora é interpretada no fuso America/Sao_Paulo. Ausência de contato recente não confirma que uma máquina está offline.
 - A fonte observada contém apenas uma linha por máquina; ela não fornece histórico completo, comandos executados, duração de uso ou êxito de exportação. O dashboard não infere esses indicadores.
@@ -27,3 +27,10 @@ Dashboard estático no GitHub Pages, com leitura pública do Google Sheets. Publ
 - Leitura ao vivo do Google Sheets confirmada no navegador.
 - Busca por Drielly, filtro de versões abaixo da referência e limpeza de filtros conferidos.
 - Layout móvel em 390 px sem transbordamento horizontal da página; tabela mantém rolagem própria.
+
+## Uso dos comandos
+- A subpasta `uso/` contém a visão complementar: comandos, pessoas ativas, tipos disponibilizados, downloads, cache e resultados.
+- As fontes são diferentes: instalações usa a planilha anterior; comandos usa uma leitura sanitizada da nova planilha privada.
+- A página pública de comandos não publica IP nem a chave usada pelo plugin para enviar os registros.
+- A consolidação é automática a cada seis horas no Apps Script, mesmo com o site fechado. A página aberta consulta o resultado a cada cinco minutos.
+- Há link nos dois sentidos entre os dashboards.
