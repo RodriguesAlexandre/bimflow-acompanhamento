@@ -70,3 +70,6 @@ code.path{display:block;margin:8px 0 2px;padding:9px 12px;background:#12314f;col
 
 /* Todos os cartões permanecem legíveis; o filtro somente destaca a borda. */
 .flow-step,.flow-step.dimmed{opacity:1!important;filter:none!important}.flow-step.highlighted{outline:2px solid #58d7ef;outline-offset:4px;box-shadow:0 0 0 5px #58d7ef16}
+
+/* Quinze entregas em três linhas; futuras dividem a largura da última linha. */
+.roadmap-chain{grid-template-columns:repeat(10,minmax(0,1fr))}
