@@ -78,7 +78,7 @@
       "id": "07",
       "titulo": "Transferir para P. Avelar",
       "status": "concluido",
-      "texto": "Código, releases, biblioteca e site copiados para Pavelar-BIM. Planilha de uso e acionador na conta Google corporativa.",
+      "texto": "Código, releases, biblioteca e site copiados para os repositórios da Pavelar-BIM.",
       "evidencia": "895 itens · hashes e leitura real conferidos · origem pessoal preservada"
     },
     {
@@ -90,17 +90,17 @@
     },
     {
       "id": "09",
-      "titulo": "Ampliar disciplinas",
-      "status": "futuro",
-      "texto": "Definir escopo e adaptadores de hidrossanitário, incêndio, SPDA, climatização e estrutura.",
-      "evidencia": "Implementação futura · planejamento e responsáveis a definir"
+      "titulo": "Migrar os registros de uso",
+      "status": "concluido",
+      "texto": "Histórico de uso preservado na conta Google corporativa, com receptor protegido e consolidação automática.",
+      "evidencia": "24 campos · consolidação a cada 15 minutos"
     },
     {
       "id": "10",
-      "titulo": "Consolidar a operação",
-      "status": "futuro",
-      "texto": "Definir responsáveis e uma rotina de manutenção, revisão e validação das próximas publicações.",
-      "evidencia": "Implementação futura · planejamento e responsáveis a definir"
+      "titulo": "Automatizar releases corporativas",
+      "status": "concluido",
+      "texto": "Workflow da empresa testa, compila os dois frameworks e publica o pacote a partir da tag de versão.",
+      "evidencia": "Release corporativa 1.0.47 publicada e conferida"
     },
     {
       "id": "11",
@@ -136,6 +136,20 @@
       "status": "concluido",
       "texto": "Luvas dos conduletes e as três opções de desvio de prumadas validadas no Revit.",
       "evidencia": "Validação confirmada pelo responsável em 30/10/2026"
+    },
+    {
+      "id": "16",
+      "titulo": "Ampliar disciplinas",
+      "status": "futuro",
+      "texto": "Definir escopo e adaptadores de hidrossanitário, incêndio, SPDA, climatização e estrutura.",
+      "evidencia": "Implementação futura · planejamento e responsáveis a definir"
+    },
+    {
+      "id": "17",
+      "titulo": "Consolidar a operação",
+      "status": "futuro",
+      "texto": "Definir responsáveis e uma rotina de manutenção, revisão e validação das próximas publicações.",
+      "evidencia": "Implementação futura · planejamento e responsáveis a definir"
     }
   ]
 }

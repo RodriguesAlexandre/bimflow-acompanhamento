@@ -67,3 +67,6 @@ code.path{display:block;margin:8px 0 2px;padding:9px 12px;background:#12314f;col
 
 /* Implementações futuras separadas das entregas concluídas. */
 .roadmap-future{margin-top:30px;padding-top:25px;border-top:1px dashed #ffffff38}.roadmap-future>h3{color:#bce6f6;margin-bottom:7px}.roadmap-future>p{color:#b8d2e7;font-size:12px;margin-bottom:20px}.future-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.future-cards .flow-step{grid-column:auto!important;grid-row:auto!important}.future-cards .flow-step:before,.future-cards .flow-step:after{display:none!important}@media(max-width:650px){.future-cards{grid-template-columns:1fr}}
+
+/* Todos os cartões permanecem legíveis; o filtro somente destaca a borda. */
+.flow-step,.flow-step.dimmed{opacity:1!important;filter:none!important}.flow-step.highlighted{outline:2px solid #58d7ef;outline-offset:4px;box-shadow:0 0 0 5px #58d7ef16}
