@@ -73,3 +73,5 @@ code.path{display:block;margin:8px 0 2px;padding:9px 12px;background:#12314f;col
 
 /* Quinze entregas em três linhas; futuras dividem a largura da última linha. */
 .roadmap-chain{grid-template-columns:repeat(10,minmax(0,1fr))}
+
+.architecture-flows{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0 12px}.architecture-flows article{background:#eaf3fa;border:1px solid #d7e5f1;border-radius:12px;padding:22px}.architecture-flows p{margin:10px 0 0;color:#173f6b;line-height:1.9}#arquitetura-plugin details .table-card{margin-top:18px}#arquitetura-plugin td{vertical-align:top}#arquitetura-plugin td:first-child{font-weight:600;color:#173f6b}#arquitetura-plugin .note{margin:18px 0}@media(max-width:720px){.architecture-flows{grid-template-columns:1fr}}
