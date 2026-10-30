@@ -1,7 +1,7 @@
 {
   "atualizadoEm": "30/10/2026",
-  "versaoPreparada": "1.0.46",
-  "ultimaRelease": "1.0.46",
+  "versaoPreparada": "1.0.47",
+  "ultimaRelease": "1.0.47",
   "migracaoArquitetura": "concluida",
   "disciplinas": [
     {
@@ -77,9 +77,9 @@
     {
       "id": "07",
       "titulo": "Transferir para P. Avelar",
-      "status": "andamento",
-      "texto": "Levar plugin, biblioteca e site ao GitHub da empresa. Ajustar acessos e endereços.",
-      "evidencia": "Em trabalho · acessos com a coordenação"
+      "status": "concluido",
+      "texto": "Código, releases, biblioteca e site copiados para Pavelar-BIM. Planilha de uso e acionador na conta Google corporativa.",
+      "evidencia": "895 itens · hashes e leitura real conferidos · origem pessoal preservada"
     },
     {
       "id": "08",
@@ -99,8 +99,8 @@
       "id": "10",
       "titulo": "Consolidar a operação",
       "status": "pendente",
-      "texto": "Definir responsáveis, rotina de revisão e validação antes de cada nova publicação.",
-      "evidencia": "Procedimento de continuidade abaixo"
+      "texto": "Definir responsáveis, renovar credenciais e validar uma nova publicação e instalação em outro computador.",
+      "evidencia": "Leitura inicial vence em 29/11/2026 · revisão periódica necessária"
     },
     {
       "id": "11",
@@ -128,14 +128,14 @@
       "titulo": "Documentar e entregar",
       "status": "concluido",
       "texto": "README detalhado e projeto legado completo no Drive, com ZIP e manifesto de hashes.",
-      "evidencia": "Release 1.0.46 · instalador e DLLs atualizados"
+      "evidencia": "Versão 1.0.47 · destinos corporativos documentados"
     },
     {
       "id": "15",
       "titulo": "Validar novos comandos",
       "status": "validacao",
       "texto": "Conferir luvas e geometria dos três desvios em projetos de teste Revit 2024/2025.",
-      "evidencia": "193 verificações aprovadas não substituem este teste"
+      "evidencia": "211 verificações automatizadas não substituem o teste geométrico"
     }
   ]
 }
