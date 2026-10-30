@@ -41,3 +41,15 @@ fetch('telemetria/config.json',{cache:'no-store'}).then(r=>r.json()).then(cfg=>{
  query(cfg).then(rows=>show(rows,cfg,'ok','Ao vivo · planilha')).catch(()=>{});
 }).catch(()=>{id('inst-estado').textContent='Dados indisponíveis';});
 })();
+
+// Percursos didáticos: conteúdo completo permanece no DOM e pode ser exibido em Ver tudo.
+(function(){
+ const paths={resumo:['entregas','roadmap','fluxo','instalacao','continuidade','limites'],uso:['instalacao','interface','manual-comandos','uso-comandos','limites'],biblioteca:['instalacao','operacao','manual-comandos','pastas','limites'],manutencao:['instalacao','arquitetura-plugin','assumir-manutencao','pastas','continuidade','limites'],links:['links-rapidos']};
+ const labels={resumo:'Visão geral',uso:'Usar no Revit',biblioteca:'Equipe BIM',manutencao:'Manutenção técnica',links:'Links',tudo:'Consulta completa'};
+ const buttons=[...document.querySelectorAll('[data-learning-mode]')],sections=[...document.querySelectorAll('main>section')].filter(s=>s.id!=='comece-aqui');
+ let mode='resumo';
+ function apply(next){mode=next;sections.forEach(section=>section.hidden=next!=='tudo'&&!(paths[next]||[]).includes(section.id));buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.learningMode===next)));document.getElementById('learning-status').textContent=labels[next]+' · detalhes para expandir; Ver tudo reúne o guia completo.';}
+ const routes={inicio:'resumo',entregas:'resumo',roadmap:'resumo',fluxo:'resumo',instalacao:'uso',interface:'uso','manual-comandos':'uso',operacao:'biblioteca',pastas:'biblioteca','arquitetura-plugin':'manutencao','assumir-manutencao':'manutencao',continuidade:'manutencao','links-rapidos':'links','uso-comandos':'uso',limites:'resumo'};
+ function route(){const target=decodeURIComponent(location.hash.slice(1));if(routes[target])apply(routes[target]);}
+ buttons.forEach(button=>button.addEventListener('click',()=>apply(button.dataset.learningMode)));window.addEventListener('hashchange',route);apply(mode);route();
+})();

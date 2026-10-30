@@ -1,7 +1,7 @@
 {
   "atualizadoEm": "30/10/2026",
-  "versaoPreparada": "1.0.47",
-  "ultimaRelease": "1.0.47",
+  "versaoPreparada": "1.0.48",
+  "ultimaRelease": "1.0.48",
   "migracaoArquitetura": "concluida",
   "disciplinas": [
     {
@@ -100,14 +100,14 @@
       "titulo": "Automatizar releases corporativas",
       "status": "concluido",
       "texto": "Workflow da empresa testa, compila os dois frameworks e publica o pacote a partir da tag de versão.",
-      "evidencia": "Release corporativa 1.0.47 publicada e conferida"
+      "evidencia": "Release corporativa 1.0.48 · pacote limpo e dois instaladores"
     },
     {
       "id": "11",
       "titulo": "Perfis de acesso",
       "status": "concluido",
-      "texto": "Projetista por padrão; Equipe BIM libera gestão com barreira operacional e credencial própria de escrita.",
-      "evidencia": "Exportação, publicação e prévia protegidas"
+      "texto": "Projetistas usa o acervo sem publicação; Equipe BIM tem escrita configurada no instalador e libera a sessão por senha.",
+      "evidencia": "Dois pacotes distintos · publicação bloqueada no de Projetistas"
     },
     {
       "id": "12",
@@ -128,7 +128,7 @@
       "titulo": "Documentar e entregar",
       "status": "concluido",
       "texto": "README detalhado e projeto legado completo no Drive, com ZIP e manifesto de hashes.",
-      "evidencia": "Versão 1.0.47 · destinos corporativos documentados"
+      "evidencia": "Guia por objetivo · manuais, links, perfis e manutenção"
     },
     {
       "id": "15",
