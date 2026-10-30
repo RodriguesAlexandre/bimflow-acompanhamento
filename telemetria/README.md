@@ -34,3 +34,9 @@ Dashboard estático no GitHub Pages, com leitura pública do Google Sheets. Publ
 - A página pública de comandos não publica IP nem a chave usada pelo plugin para enviar os registros.
 - A consolidação é automática a cada seis horas no Apps Script, mesmo com o site fechado. A página aberta consulta o resultado a cada cinco minutos.
 - Há link nos dois sentidos entre os dashboards.
+
+## Navegação integrada e campos completos
+
+O arquivo `index.html` agora é a tela única de Visão geral, Instalações e Uso. O painel antigo foi preservado em `instalacoes/` e o de comandos em `uso/`, incorporados uma vez, sem recarga ao alternar. `dashboard.js` controla as seções; `bridge.js` envia somente indicadores para a visão geral e mantém a atualização ativa nas telas visíveis. Há validação de origem e janela nas mensagens. Links antigos das telas são encaminhados para a navegação única.
+
+A consolidação de uso passou para quinze minutos, com consulta da página a cada minuto. Os 24 campos coletados, incluindo IP local, foram autorizados para leitura pública por link. Não há credenciais nos eventos ou no frontend. Veja `uso/README.md`.

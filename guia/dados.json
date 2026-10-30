@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "27/10/2026",
-  "versaoPreparada": "1.0.44",
-  "ultimaRelease": "1.0.44",
+  "atualizadoEm": "30/10/2026",
+  "versaoPreparada": "1.0.46",
+  "ultimaRelease": "1.0.46",
   "migracaoArquitetura": "concluida",
   "disciplinas": [
     {
@@ -84,9 +84,9 @@
     {
       "id": "08",
       "titulo": "Incorporar comandos antigos",
-      "status": "pendente",
-      "texto": "Inventariar o plugin legado independente e integrar os comandos úteis, com revisão e testes.",
-      "evidencia": "Elétrica e outras disciplinas"
+      "status": "concluido",
+      "texto": "Luva dos Conduletes e Desvios de Prumadas: direto, um e dois joelhos; painéis e ícones próprios.",
+      "evidencia": "Código e testes entregues · geometria ainda em validação"
     },
     {
       "id": "09",
@@ -101,6 +101,41 @@
       "status": "pendente",
       "texto": "Definir responsáveis, rotina de revisão e validação antes de cada nova publicação.",
       "evidencia": "Procedimento de continuidade abaixo"
+    },
+    {
+      "id": "11",
+      "titulo": "Perfis de acesso",
+      "status": "concluido",
+      "texto": "Projetista por padrão; Equipe BIM libera gestão com barreira operacional e credencial própria de escrita.",
+      "evidencia": "Exportação, publicação e prévia protegidas"
+    },
+    {
+      "id": "12",
+      "titulo": "Registrar utilização",
+      "status": "concluido",
+      "texto": "Eventos dos comandos, biblioteca e parâmetros com fila local, confirmação e reenvio.",
+      "evidencia": "Receptor real conferido sem duplicação"
+    },
+    {
+      "id": "13",
+      "titulo": "Unificar o dashboard",
+      "status": "concluido",
+      "texto": "Visão geral, instalações e uso na mesma página; dados públicos conforme autorização.",
+      "evidencia": "Consolidação de 15 min · consulta de 1 min"
+    },
+    {
+      "id": "14",
+      "titulo": "Documentar e entregar",
+      "status": "concluido",
+      "texto": "README detalhado e projeto legado completo no Drive, com ZIP e manifesto de hashes.",
+      "evidencia": "Release 1.0.46 · instalador e DLLs atualizados"
+    },
+    {
+      "id": "15",
+      "titulo": "Validar novos comandos",
+      "status": "validacao",
+      "texto": "Conferir luvas e geometria dos três desvios em projetos de teste Revit 2024/2025.",
+      "evidencia": "193 verificações aprovadas não substituem este teste"
     }
   ]
 }
