@@ -64,3 +64,6 @@ code.path{display:block;margin:8px 0 2px;padding:9px 12px;background:#12314f;col
 .install-grid{align-items:stretch}.install-grid>.card{margin:0;height:100%}.install-card{display:flex;flex-direction:column}.install-card>.muted{margin-top:auto;padding-top:14px}.live-card>.button{margin-top:auto}.flow-step.andamento{border-color:#e0b65c}.flow-step.andamento .step-number{background:#f5ce77}.flow-step.andamento .step-status{color:#f5ce77}
 
 .install-card>.pill{align-self:flex-start}.live-card{gap:0}
+
+/* Implementações futuras separadas das entregas concluídas. */
+.roadmap-future{margin-top:30px;padding-top:25px;border-top:1px dashed #ffffff38}.roadmap-future>h3{color:#bce6f6;margin-bottom:7px}.roadmap-future>p{color:#b8d2e7;font-size:12px;margin-bottom:20px}.future-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.future-cards .flow-step{grid-column:auto!important;grid-row:auto!important}.future-cards .flow-step:before,.future-cards .flow-step:after{display:none!important}@media(max-width:650px){.future-cards{grid-template-columns:1fr}}

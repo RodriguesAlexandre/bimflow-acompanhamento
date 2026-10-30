@@ -86,21 +86,21 @@
       "titulo": "Incorporar comandos antigos",
       "status": "concluido",
       "texto": "Luva dos Conduletes e Desvios de Prumadas: direto, um e dois joelhos; painéis e ícones próprios.",
-      "evidencia": "Código e testes entregues · geometria ainda em validação"
+      "evidencia": "Código, testes e validação de uso concluídos"
     },
     {
       "id": "09",
       "titulo": "Ampliar disciplinas",
-      "status": "pendente",
+      "status": "futuro",
       "texto": "Definir escopo e adaptadores de hidrossanitário, incêndio, SPDA, climatização e estrutura.",
-      "evidencia": "Estrutura prevista; exportadores ainda pendentes"
+      "evidencia": "Implementação futura · planejamento e responsáveis a definir"
     },
     {
       "id": "10",
       "titulo": "Consolidar a operação",
-      "status": "pendente",
-      "texto": "Definir responsáveis, renovar credenciais e validar uma nova publicação e instalação em outro computador.",
-      "evidencia": "Leitura inicial vence em 29/11/2026 · revisão periódica necessária"
+      "status": "futuro",
+      "texto": "Definir responsáveis e uma rotina de manutenção, revisão e validação das próximas publicações.",
+      "evidencia": "Implementação futura · planejamento e responsáveis a definir"
     },
     {
       "id": "11",
@@ -133,9 +133,9 @@
     {
       "id": "15",
       "titulo": "Validar novos comandos",
-      "status": "validacao",
-      "texto": "Conferir luvas e geometria dos três desvios em projetos de teste Revit 2024/2025.",
-      "evidencia": "211 verificações automatizadas não substituem o teste geométrico"
+      "status": "concluido",
+      "texto": "Luvas dos conduletes e as três opções de desvio de prumadas validadas no Revit.",
+      "evidencia": "Validação confirmada pelo responsável em 30/10/2026"
     }
   ]
 }
